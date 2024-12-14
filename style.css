@@ -1,0 +1,38 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #d3d3d3;
+    margin: 20px;
+   
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.container {
+    display: flex;
+    align-items: flex-start;
+}
+figcaption{
+        width: 300px;
+        border: 1px solid black;
+        margin: 1px;
+        padding: 2px 8px 2px ;
+        
+}
+.image-container img {
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+   
+}
+.text-container {
+    margin-left: 20px;
+}
+.text-container h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.text-container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
